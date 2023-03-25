@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap');
+
+* {
+  user-select: none;
+  font-family: "Satoshi", sans-serif;
+  scroll-behavior: smooth;
+}
+
+*:not(.cart-view)::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.load-btn {
+  color: white;
+  padding: .5em 1em;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  justify-content: space-between;
+  border: none;
+  outline: none;
+  background-color: #fc3171bf;
+}
