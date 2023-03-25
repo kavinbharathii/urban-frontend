@@ -21,7 +21,7 @@ export default {
     methods: {
         send() {
             axios.post(
-                'http://13.127.156.225:3000/data',
+                'http://servbees.netlify.app/api/data',
                 this.msgData
             ).then(response => {
                 console.log('hi')
